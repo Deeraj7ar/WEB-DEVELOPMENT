@@ -1,0 +1,143 @@
+body {
+    background-image: url("images.jpeg");
+    height: 100px;
+    background-size: cover ;
+    background-position: center;
+    color:white;
+    background-blend-mode: screen;
+}
+body::before{
+    content: "";
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: -1;
+}
+#logo img{
+    margin-left: 150px;
+    height: auto;
+    width: 175px;
+}
+#logo{
+    display: inline;
+}
+#lan{
+    margin-left: 700px;
+    height: 30px;
+    width:130px;
+    position: relative;
+    bottom: 30px;
+    background-color: rgba(0,0,0,0.5);
+    color:rgb(224, 241, 124);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+#si
+{
+    height:30px;
+    background-color: rgb(252, 27, 27);
+    color:white;
+    position: relative;
+    bottom: 30px;
+    border: 1px solid rgb(252, 27, 27);
+    border-radius: 5px;
+}
+#um{
+    width: 600px;
+    height: auto;
+    position: relative;
+    top:120px;
+    left: 450px;
+    display: inline-block;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: wheat;
+}
+.plan{
+    width: 600px;
+    height: auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    position:relative;
+    top:80px;
+    left:350px;
+    display: flex;
+    justify-content: center;
+}
+input{
+    width: 400px;
+    height: 45px;
+    position: relative;
+    top:80px;
+    left: 330px;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+#gs
+{
+    width: 200px;
+    height: 60px;
+    position: relative;
+    top:80px;
+    left: 330px;
+    background-color: red;
+    color:white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    border: 0px solid red;
+    border-radius: 10px;
+}
+.mov{
+    width:250px;
+    height: 350px;
+    display: inline-block;
+}
+#st{
+    background-image: url("ST1.jpeg");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:0px;
+    border: 2px solid black;
+    border-radius: 20px;
+    transition: all infinite ease-in-out 0s;
+}
+#wed{
+    background-image: url("wed.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0PX;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#acc{
+    background-image: url("acc.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0PX;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#dra{
+    background-image: url("dra.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0PX;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+#ani{
+    background-image: url("ani.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0PX;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+.mov:hover{
+    filter: brightness(.5);
+}
+#TN{
+    color:white;
+    margin-left: 20px;
+    font-size: 30px;
+}
